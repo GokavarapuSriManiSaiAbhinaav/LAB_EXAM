@@ -1,6 +1,7 @@
 // src/components/Fitness.jsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import './Fitness.css';
 import { API_BASE_URL } from "./config";
 
 const Fitness = () => {
